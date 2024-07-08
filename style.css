@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url("main.jpg");
+    background-size: cover;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav{
+    position: relative;
+}
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+a:link{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.bar{
+    font-size: 20px;
+
+}
+.bar i{
+     padding: 5px 25px;
+}
+
+/* heading part */
+
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+}
+.left{
+    color: white ;
+    text-align: center;
+
+}
+.left .des{
+   text-transform: uppercase;
+   color: white;
+   font-size: 50px;
+}
+.left .btn{
+    padding: 5px;
+    width: 90px;
+    height: 70px;
+}
+
+ 
+
+
+
+/* vedio section */
+.video_section {
+    padding: 0px;
+    margin-top: 100px;
+    background-image: url("assets/vedio.jpeg");
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.video_section {
+    padding: 0;
+    margin-top: 100px;
+}
+
+.video_container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+.video_container div i {
+    justify-content: center;
+    align-items: center;
+}
+
+.video_container a {
+    color: #FFBF00;
+    font-size: 40px;
+    padding: 40px 45px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+}
