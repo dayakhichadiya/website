@@ -83,3 +83,41 @@ ul li .nav-links{
 .nav-icons a:hover {
     color: #FFB74D;
 }
+
+
+/* img -section */
+
+.img-section{
+    max-width: fit-content;
+    /* margin: auto; */
+}
+.inner{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: start; */
+    overflow-x: scroll ;
+    scroll-behavior: smooth;
+    scrollbar-width: 20px;
+    
+
+}
+.inner img {
+    height: 567px;
+    width: 850px; 
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+/* services-section */
+
+.service-sec .box-1{
+    border: 2px solid black;
+    width: 265.5px;
+    height: 175px;
+
+}
+.box-1 img{
+    width: 265.5px;
+    height: 175px;
+}
