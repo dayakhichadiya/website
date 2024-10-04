@@ -66,7 +66,7 @@ ul li .nav-links{
 }
 
 .nav-links a.active {
-    color: #FFB74D;
+    /* color: #FFB74D; */
 }
 
 .nav-links a:hover {
@@ -120,4 +120,35 @@ ul li .nav-links{
 .box-1 img{
     width: 265.5px;
     height: 175px;
+}
+.myServices {
+    font-family: "Urbanist", sans-serif;
+
+}
+.myServices h2{
+    color : #343f52;
+    font-size: 34px;
+    font-weight: 500;
+    font-weight: semi-bold;
+}
+.para1{
+    font-size: 22px;
+    font-weight: 500;
+    color: #60697b;
+}
+.para2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #60697b;
+}
+.morebtn{
+    background-color: #fab758;
+    border-radius : 1000px;
+    font-size : 17px;
+    line-height : 28.9px;
+    font-weight: 600;
+    padding : 6px 8px;
+    border:none;
+    color: #f6f7f9;
+    font-family: "Urbanist", sans-serif;
 }
