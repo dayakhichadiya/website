@@ -22,10 +22,12 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
 }
-
+.btn-row{
+    justify-content: space-between;
+}
 .search-box {
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     margin-bottom: 20px;
 }
 
@@ -46,17 +48,17 @@ h1 {
     margin-left: 10px;
 }
 
-.delete-btn {
+.buttons .delete-btn {
     background-color: #dc3545;
     color: #fff;
 }
 
-.export-btn {
+.buttons .export-btn {
     background-color: #17a2b8;
     color: #fff;
 }
 
-.create-btn {
+.buttons .create-btn {
     background-color: #28a745;
     color: #fff;
 }
