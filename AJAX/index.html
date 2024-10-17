@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Read Records</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 
     <div class="container">
         <h1>Read Records</h1>
         <div class="btn-row">
-        <div class="search-box">
-            <input type="text" placeholder="Type a name..." />
-            <button><i class="fa fa-search"></i></button>
-            <div class="buttons">
-                <button class="delete-btn">Delete Selected</button>
-                <button class="export-btn">Export CSV</button>
-                <button class="create-btn">Create Record</button>
+            <div class="search-box">
+                <input type="text" placeholder="Type a name..." />
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-        </div>
-    </div>
-        <!-- <table class="record">
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Name</th>
-            </tr>
-        </table> -->
+                <div class="buttons">
+                    <button class="delete-btn">Delete Selected</button>
+                    <button class="export-btn">Export CSV</button>
+                    <button class="create-btn">Create Record</button>
+                </div>
+           
+        </div>  
+
+
         <table class="records-table">
             <thead>
                 <tr>
@@ -98,14 +97,20 @@
             </tbody>
         </table>
 
-       
-        <div class="pagination">
-            <button>&laquo;</button>
-            <button class="active">1</button>
-            <button>2</button>
-            <button>&raquo;</button>
+
+        <div class="page">
+            <div class="pagination">
+                <button class="active">1</button>
+                <button class="btn2">2</button>
+                <button class="r-arrow">&raquo;</button>
+            </div>
+            <div class="typePage">
+                <input type="text" placeholder="Type page number..." />
+                <button>Go</i></button>
+            </div>
         </div>
     </div>
 
 </body>
+
 </html>
